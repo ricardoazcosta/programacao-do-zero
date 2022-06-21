@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family:'Poppins';
+}
+body{
+    background: black;
+}
+
+img {
+    height: 500px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#caixa-numeros {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 340px;
+    background: rgb(0, 0, 0);
+    border-radius: 6px;
+    padding-left: 10px;
+}
+
+.numeros {
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+    color: #C5FB01;
+}
+
+.numero-aqua {
+    
+    color: aqua;
+}
+
+#caixa-botoes {
+    
+    margin-top: 20px;
+    text-align: center;
+}
+
+.botoes {
+    color: #011afb;
+    padding: 6px 16px;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+#reset {
+    color: #011afb
+}
+
+#stop {
+    color: #011afb
+}
+
+.ativo {
+    opacity: 0.5;
+}
+.botoes {
+    
+    background: linear-gradient(0deg, rgb(2, 162, 236) 0%, rgb(189, 245, 7) 100%);
+    border: none;
+    
+  }
+  .botoes:before {
+    height: 0%;
+    width: 2px;
+  }
+  .botoes:hover {
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .5), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.2),
+      inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+  }
+  
